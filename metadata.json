@@ -1,0 +1,6 @@
+{
+  "name": "Heavy Haul 3D: Truck Simulator",
+  "description": "Simulador de camiones 3D realista con físicas de suspensión y vuelco, mapa abierto de valle y montaña, remolques con carga, misiones, concesionario, taller y tráfico NPC.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,6 @@
+{
+  "summary":  "Implementation plan for correcting steering inversion, realistic diesel torque and 0-100 acceleration curves, suspension body roll and rollover physics, lightweight PBR shaders for Android, and UI Lerp animations.",
+  "updatedAt":  "2026-09-25T18:15:28.454259046Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}
