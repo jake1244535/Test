@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="truckBody" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="100%" stop-color="#991b1b"/>
+    </linearGradient>
+    <linearGradient id="chrome" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#94a3b8"/>
+      <stop offset="50%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#64748b"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Rounded Background -->
+  <rect width="512" height="512" rx="100" fill="url(#bg)"/>
+  
+  <!-- Highway Road Lines in Perspective -->
+  <path d="M 90 440 L 220 280 L 292 280 L 422 440 Z" fill="#334155" opacity="0.6"/>
+  <line x1="256" y1="290" x2="256" y2="430" stroke="#facc15" stroke-width="8" stroke-dasharray="24 16"/>
+
+  <!-- Truck Cab Silhouette -->
+  <!-- Exhaust stacks -->
+  <rect x="180" y="110" width="14" height="120" rx="4" fill="url(#chrome)"/>
+  <rect x="318" y="110" width="14" height="120" rx="4" fill="url(#chrome)"/>
+  
+  <!-- Main Cab -->
+  <rect x="160" y="190" width="192" height="160" rx="20" fill="url(#truckBody)"/>
+  
+  <!-- Windshield -->
+  <rect x="180" y="210" width="152" height="60" rx="8" fill="#38bdf8" opacity="0.9"/>
+  <!-- Chrome Grille -->
+  <rect x="195" y="285" width="122" height="65" rx="8" fill="url(#chrome)"/>
+  <line x1="205" y1="300" x2="307" y2="300" stroke="#334155" stroke-width="3"/>
+  <line x1="205" y1="315" x2="307" y2="315" stroke="#334155" stroke-width="3"/>
+  <line x1="205" y1="330" x2="307" y2="330" stroke="#334155" stroke-width="3"/>
+
+  <!-- Headlights -->
+  <circle cx="178" cy="318" r="14" fill="#fef08a"/>
+  <circle cx="334" cy="318" r="14" fill="#fef08a"/>
+  
+  <!-- Bumper -->
+  <rect x="145" y="350" width="222" height="24" rx="8" fill="url(#chrome)"/>
+  
+  <!-- Front Wheels -->
+  <rect x="135" y="364" width="30" height="60" rx="10" fill="#0f172a" stroke="#475569" stroke-width="4"/>
+  <rect x="347" y="364" width="30" height="60" rx="10" fill="#0f172a" stroke="#475569" stroke-width="4"/>
+
+  <!-- Title Badge -->
+  <rect x="96" y="445" width="320" height="42" rx="21" fill="#0f172a" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="256" y="473" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="900" fill="#f8fafc" text-anchor="middle" letter-spacing="3">TRUCK SIM 3D</text>
+</svg>

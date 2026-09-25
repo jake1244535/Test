@@ -1,0 +1,8 @@
+{
+  "appId": "com.americantruck.simulator",
+  "appName": "American Truck Simulator 3D",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}
