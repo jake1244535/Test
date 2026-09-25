@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <defs>
+    <linearGradient id="bg192" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="truckBody192" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="100%" stop-color="#991b1b"/>
+    </linearGradient>
+    <linearGradient id="chrome192" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#94a3b8"/>
+      <stop offset="50%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#64748b"/>
+    </linearGradient>
+  </defs>
+  <rect width="192" height="192" rx="40" fill="url(#bg192)"/>
+  <!-- Exhausts -->
+  <rect x="68" y="38" width="6" height="50" rx="2" fill="url(#chrome192)"/>
+  <rect x="118" y="38" width="6" height="50" rx="2" fill="url(#chrome192)"/>
+  <!-- Cab -->
+  <rect x="60" y="70" width="72" height="60" rx="8" fill="url(#truckBody192)"/>
+  <rect x="68" y="78" width="56" height="22" rx="4" fill="#38bdf8"/>
+  <rect x="73" y="106" width="46" height="24" rx="4" fill="url(#chrome192)"/>
+  <!-- Wheels & Bumper -->
+  <rect x="52" y="130" width="88" height="10" rx="4" fill="url(#chrome192)"/>
+  <rect x="48" y="136" width="12" height="24" rx="4" fill="#0f172a"/>
+  <rect x="132" y="136" width="12" height="24" rx="4" fill="#0f172a"/>
+  <!-- Headlights -->
+  <circle cx="66" cy="118" r="5" fill="#fef08a"/>
+  <circle cx="126" cy="118" r="5" fill="#fef08a"/>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Full bleed background for safe cropping -->
+  <rect width="512" height="512" fill="#0f172a"/>
+  
+  <g transform="translate(56, 56) scale(0.78)">
+    <defs>
+      <linearGradient id="mTruckBody" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#ef4444"/>
+        <stop offset="100%" stop-color="#991b1b"/>
+      </linearGradient>
+      <linearGradient id="mChrome" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#94a3b8"/>
+        <stop offset="50%" stop-color="#f8fafc"/>
+        <stop offset="100%" stop-color="#64748b"/>
+      </linearGradient>
+    </defs>
+    <!-- Exhaust stacks -->
+    <rect x="180" y="110" width="14" height="120" rx="4" fill="url(#mChrome)"/>
+    <rect x="318" y="110" width="14" height="120" rx="4" fill="url(#mChrome)"/>
+    
+    <!-- Main Cab -->
+    <rect x="160" y="190" width="192" height="160" rx="20" fill="url(#mTruckBody)"/>
+    
+    <!-- Windshield -->
+    <rect x="180" y="210" width="152" height="60" rx="8" fill="#38bdf8" opacity="0.9"/>
+    <!-- Chrome Grille -->
+    <rect x="195" y="285" width="122" height="65" rx="8" fill="url(#mChrome)"/>
+    <line x1="205" y1="300" x2="307" y2="300" stroke="#334155" stroke-width="3"/>
+    <line x1="205" y1="315" x2="307" y2="315" stroke="#334155" stroke-width="3"/>
+    <line x1="205" y1="330" x2="307" y2="330" stroke="#334155" stroke-width="3"/>
+
+    <!-- Headlights -->
+    <circle cx="178" cy="318" r="14" fill="#fef08a"/>
+    <circle cx="334" cy="318" r="14" fill="#fef08a"/>
+    
+    <!-- Bumper -->
+    <rect x="145" y="350" width="222" height="24" rx="8" fill="url(#mChrome)"/>
+    
+    <!-- Front Wheels -->
+    <rect x="135" y="364" width="30" height="60" rx="10" fill="#020617"/>
+    <rect x="347" y="364" width="30" height="60" rx="10" fill="#020617"/>
+  </g>
+</svg>
